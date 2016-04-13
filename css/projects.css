@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(43, 43, 43);
+  font: 400 1em/1.38 'Poiret One';
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 5;
+  width: 11.4166666666%;
+  height: 166px;
+  margin: -258px 0 0 45.41667%;
+}
+
+.element {
+  position: relative;
+  float: left;
+  height: 275px;
+}
+
+.image {
+  display: block;
+  float: left;
+  width: 137px;
+  height: auto;
+  margin-left: -0.30794%;
+  overflow: hidden;
+}
+
+._button {
+  display: block;
+  float: left;
+  border-radius: 3px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.element-1 {
+  z-index: 0;
+  width: 45.9166666666%;
+  background-color: rgb(49, 255, 188);
+}
+
+.element-2 {
+  clear: both;
+  z-index: 1;
+  width: 54.6666666666%;
+  margin: -275px 0 0 45.91667%;
+  background-color: #31ffbc;
+}
+
+._button-1 {
+  position: relative;
+  z-index: 2;
+  width: 16.3333333333%;
+  height: 57px;
+  margin: -57px 0 0 42.39974%;
+  font-family: PoiretOne-Regular;
+  font-size: 1.563em;
+  font-weight: normal;
+}
+
+._button-1:hover {
+  color: rgb(145, 145, 145);
+}
+
+._button-2 {
+  position: relative;
+  z-index: 6;
+  width: 10.3333333333%;
+  height: 55px;
+  margin: -92px 0 0 45.41667%;
+  font-size: 1.25em;
+}
+
+._button-3 {
+  width: 22.8333333333%;
+  height: 29px;
+  margin-top: 280px;
+  background-color: rgba(222, 222, 222, 0);
+  font-size: 1em;
+}
