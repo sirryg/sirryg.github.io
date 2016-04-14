@@ -8,7 +8,7 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 7;
+  z-index: 6;
   width: 11.4166666666%;
   height: 166px;
   margin: -258px 0 0 45.41667%;
@@ -62,17 +62,19 @@ body {
   font-weight: normal;
 }
 
-._button-1:hover {
-  color: rgb(145, 145, 145);
-}
-
 ._button-2 {
   position: relative;
-  z-index: 8;
+  z-index: 7;
   width: 10.3333333333%;
   height: 55px;
-  margin: -92px 0 0 45.41667%;
+  margin: -92px 0 0 45.4166666666%;
   font-size: 1.25em;
+}
+
+._button-1:hover,
+._button-2:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(145, 145, 145);
 }
 
 ._button-3 {
@@ -88,15 +90,6 @@ body {
   width: 22.9166666666%;
   height: 73px;
   margin: 7px 0 0 38.56641%;
-  background-color: rgba(222, 222, 222, 0);
-  font-size: 1em;
-}
-
-._button-5 {
-  clear: both;
-  width: 22.8333333333%;
-  height: 29px;
-  margin-top: 111px;
   background-color: rgba(222, 222, 222, 0);
   font-size: 1em;
 }
